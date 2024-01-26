@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import MainLayout from "./layout/MainLayout";
+import MainLayout from "./components/layout/MainLayout";
 import Team from "./components/Team";
 import Project from "./components/Project";
-import Dashboard from "./components/Home";
+import Home from "./components/Home";
 import Calendar from "./components/Calendar";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 <Router>
       <MainLayout>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Calendar" element={<Calendar />} />

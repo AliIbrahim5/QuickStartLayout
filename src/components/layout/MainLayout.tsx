@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Home from "../components/Home";
+import Home from "../Home";
 import Footer from "./Footer";
 
 interface MainLayoutProps {
